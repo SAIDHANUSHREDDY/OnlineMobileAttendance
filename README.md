@@ -7,5 +7,3 @@
       <h3>Name:</h3><h4>M.V.SAI DHANUSH REDDY</h4>
       <h3>Email:</h3><h4>dhanushreddyrgm@gmail.com</h4>
       <h3>Phone:</h3><h4>8008589139</h4>
-  </body>
-  </html>    
