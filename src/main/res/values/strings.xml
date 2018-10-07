@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">onlineattendance</string>
+    <string name="firebase_authentication">FIREBASE AUTHENTICATION</string>
+</resources>

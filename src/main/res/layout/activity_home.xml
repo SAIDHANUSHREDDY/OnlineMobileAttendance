@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ADF"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="35sp"
+        android:text="LOGIN PAGE"
+        android:textColorHighlight="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:background="#27d0fa"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER MAIL ID"
+        android:fontFamily="sans-serif"
+        android:textColorHighlight="@color/colorPrimary"
+        android:textSize="20sp"
+        android:id="@+id/loginemail"
+        android:gravity="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER PASSWORD"
+        android:fontFamily="sans-serif"
+        android:textColorHighlight="@color/colorPrimary"
+        android:textSize="20sp"
+        android:password="true"
+        android:id="@+id/loginpassword"
+        android:gravity="center"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textStyle="italic"
+        android:textSize="35sp"
+        android:textColor="#800000"
+        android:layout_gravity="center"
+        android:id="@+id/login"
+        android:fontFamily="sans-serif"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="DON'T HAVE ACCOUNT? SIGNUP"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:id="@+id/signupnavigate"
+        android:textColor="#DAA520"/>
+
+</LinearLayout>
